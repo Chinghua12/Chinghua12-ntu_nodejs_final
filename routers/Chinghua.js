@@ -9,20 +9,20 @@ router.use(function timeLog(req, res, next) {
 });
 // define the home page route
 
-router.get('/', function(req, res) {
+router.get('/', function (req, res) {
   res.send(
-    'Fisheep\'s home page'+'<br>'+
-    '<a href="/user/Fisheep/about"> about </a>'+'<br>'+
-    '<a href="/user/Fisheep/classA.html"> classA </a>'
-    );
+    'Chinghua\'s home page' + '<br>' +
+    '<a href="/user/Chinghua/about"> about </a>' + '<br>' +
+    '<a href="/user/Chinghua/classA.html"> classA </a>'
+  );
 });
 
 // define the about route
-router.get('/about', function(req, res) {
+router.get('/about', function (req, res) {
   res.send(
-    '<h1> About Fisheep </h1>'+
-    '\n <img src="https://www.omgtw.com/upload/article/original/be134fac90625546754962aeef34925c.jpg" height="60%">'
-    );
+    '<h1> About Chinghua </h1>' +
+    '\n <img src="https://hexschool.github.io/webLayoutTraining1st/week1/photo.png" height="60%">'
+  );
 });
 
 module.exports = router;
