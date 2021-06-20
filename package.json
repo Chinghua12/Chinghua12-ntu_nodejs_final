@@ -1,0 +1,23 @@
+{
+  "name": "ntu_nodejs_final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chinghua12/ntu_nodejs_final.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chinghua12/ntu_nodejs_final/issues"
+  },
+  "homepage": "https://github.com/Chinghua12/ntu_nodejs_final#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
