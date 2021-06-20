@@ -8,13 +8,13 @@ router.use(function timeLog(req, res, next) {
 });
 // define the home page route
 
-router.get('/', function(req, res) {
-  res.send('Alice\'s home page');
+router.get('/', function (req, res) {
+  res.send('Jean\'s home page');
 });
 
 // define the about route
-router.get('/about', function(req, res) {
-  res.send('About Alice');
+router.get('/about', function (req, res) {
+  res.send('About Jean');
 });
 
 module.exports = router;
